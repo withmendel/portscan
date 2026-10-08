@@ -1,7 +1,95 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
 .venv/
-.env__pycache__/
-*.pyc
-.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — never commit raw data
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.tar.gz
+
+# Models — never commit weights
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.safetensors
+models/
+checkpoints/
+
+# Outputs
+outputs/
+logs/
+*.log
+
+# Environment / secrets
 .env
+.env.*
+*.key
+*.pem
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — never commit raw data
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.tar.gz
+
+# Models — never commit weights
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.safetensors
+models/
+checkpoints/
+
+# Outputs
+outputs/
+logs/
+*.log
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
